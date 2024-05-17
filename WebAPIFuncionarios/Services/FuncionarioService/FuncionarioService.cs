@@ -26,6 +26,7 @@ namespace WebAPIFuncionarios.Services.FuncionarioService
             throw new NotImplementedException();
         }
 
+        //parei aqui
         public async Task<ServiceResponse<List<FuncionarioModel>>> GetFuncionarios()
         {
             ServiceResponse<List<FuncionarioModel>> serviceResponse = new ServiceResponse<List<FuncionarioModel>>();
